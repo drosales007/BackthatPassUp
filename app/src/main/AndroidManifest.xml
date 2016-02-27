@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.johnnycash.backthatpassup"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OffensivePlaybook"
+            android:label="@string/title_activity_offensive_playook"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.johnnycash.backthatpassup.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".DefensivePlaybook"
+            android:label="@string/title_activity_defensive_playbook"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.johnnycash.backthatpassup.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".PlayDisplay"
+            android:label="@string/title_activity_play_display"
+            android:parentActivityName=".OffensivePlaybook"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.johnnycash.backthatpassup.OffensivePlaybook"/>
+        </activity>
+        <activity
+            android:name=".RouteTree"
+            android:label="@string/title_activity_route_tree"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.johnnycash.backthatpassup.MainActivity"/>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton2"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:tag="goal_line1"
+                android:onClick="openPlay"
+                android:background="@drawable/goal_line1"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton3"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:tag="goal_line2"
+                android:onClick="openPlay"
+                android:background="@drawable/goal_line2"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton4"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:tag="goal_line3"
+                android:onClick="openPlay"
+                android:background="@drawable/goal_line3"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageButton5"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:tag="goal_line4"
+                android:onClick="openPlay"
+                android:background="@drawable/goal_line4"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp">
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

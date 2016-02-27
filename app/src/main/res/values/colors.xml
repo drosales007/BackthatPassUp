@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF000000</color>
+    <color name="colorPrimaryDark">#FF000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yellowMain">#ffd900</color>
+    <color name="yellowAccent">#ceb000</color>
+    <color name="ColorPrimary">#e62117</color>
+    <color name="ColorPrimaryDark">#c31c13</color>
+    <color name="tabsScrollColor">#8a140e</color>
+    <color name="actionBar">#212121</color>
+    <color name="statusBar">#000000</color>
+    <color name="background">#303030</color>
+    <color name="popup">#424242</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#FF0015FF</color>
+    <color name="green">#FF007E0F</color>
+</resources>

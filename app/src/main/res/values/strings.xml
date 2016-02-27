@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Back that Pass Up</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_offensive_playook">OffensivePlayook</string>
+    <string name="title_activity_defensive_playbook">DefensivePlaybook</string>
+    <string name="title_activity_offense_long">OffenseLong</string>
+    <string name="title_activity_play_display">PlayDisplay</string>
+    <string name="title_activity_route_tree">RouteTree</string>
+</resources>
